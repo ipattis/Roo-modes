@@ -1,0 +1,1 @@
+Simple repo to track development of my Roo custom modes for use in Roo extension to VSCode. 
