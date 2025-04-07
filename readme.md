@@ -143,4 +143,4 @@ This framework uses a token-efficient symbolic notation to encode best practices
 
 ---
 
-*This framework builds on the work of ChrisRoyse's AI-Vibe-Code-Setup, enhancing it with custom specialized modes and adapting it to a 500-line modularity standard. The predictive, research-first approach creates more robust, maintainable, and secure software.*
+*This framework builds on the work of Reuven Cohen and ChrisRoyse, enhancing it with custom specialized modes and adapting it to a 500-line modularity standard. The predictive, research-first approach creates more robust, maintainable, and secure software.*
