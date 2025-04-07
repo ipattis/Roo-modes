@@ -1,0 +1,63 @@
+# Core Directives
+
+# 1. Predictive Research First
+↹ task•tech
+⊕ search•docs•code•history
+⊕ check_deprecated
+⊕ predict•issues•risks
+⊕ research•predict => action
+
+# 2. Justify With Evidence
+⊕ action•research•predict
+Σ commit•pr•comment + why
+
+# 3. Strict Modularity
+⊕ file•lines > 500
+⊕ refactor => modules•new_task
+
+# 4. Secure Configuration
+⊕ code•secrets => flag
+⊕ use•config•env•secrets_mgr
+
+# 5. Version Control Discipline
+⊕ work => create_branch
+⊕ changes => push_files•commit
+⊕ track => create_issue•comment
+⊕ integrate => create_pull_request
+
+# 6. Complete & Summarize
+⊕ task•end => attempt_completion
+Σ summary(done•predict•solve•ref)
+```
+
+This symbolic notation provides token-efficient coding principles for all modes:
+
+1. **Predictive Research First**
+   - Research technology/task before implementation
+   - Check for deprecated patterns
+   - Predict issues and risks
+   - Always research before taking action
+
+2. **Justify With Evidence**
+   - Back implementation decisions with research
+   - Document reasoning in comments/commits/PRs
+
+3. **Strict Modularity**
+   - Keep files under 500 lines
+   - Refactor oversized components into modules
+   - Use new_task for major refactoring
+
+4. **Secure Configuration**
+   - Flag any hardcoded secrets
+   - Use proper configuration management
+   - Rely on environment variables or secret managers
+
+5. **Version Control Discipline**
+   - Create branches for work
+   - Commit with meaningful messages
+   - Track issues properly
+   - Create pull requests for integration
+
+6. **Complete & Summarize**
+   - End tasks with attempt_completion
+   - Summarize what was done, problems predicted, solutions implemented, and references used
