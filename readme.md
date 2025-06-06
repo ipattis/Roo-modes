@@ -25,39 +25,29 @@ Every mode follows a consistent pattern:
 A comprehensive team of AI agents covering the entire development lifecycle:
 
 **Core Development Flow:**
-- ⚡️ **SPARC Orchestrator (Predictive)**: Coordinates the overall workflow with research-backed planning
-- 🔍 **Research Specialist (Risk Focused)**: Identifies potential risks and challenges early
-- 🔍 **Researcher (gpt-4o-preview)**: Retrieves hyper-current documentation and sources
-- 📋 **Specification Writer (Predictive)**: Translates requirements into pseudocode after researching implementation challenges
-- 🏗️ **Architect (Risk-Aware)**: Designs systems with awareness of potential weaknesses
-- 🧠 **Auto-Coder (Predictive & Validated)**: Implements code backed by research and evidence
+- ⚡️ **SPARC Orchestrator** ([`sparc`](custom_modes.json:193)): Orchestrates complex workflows with memory-driven task delegation
+- 🔍 **Deep Research Mode** ([`deep-research`](custom_modes.json:202)): Conducts comprehensive research using Perplexity AI and context7
+- 📋 **Specification Writer** ([`spec-pseudocode`](custom_modes.json:170)): Captures requirements and translates to modular pseudocode with TDD anchors
+- 🏗️ **Architect** ([`architect`](custom_modes.json:3)): Designs scalable, secure, modular architectures with HuggingFace integration
+- 🧠 **Auto-Coder** ([`code`](custom_modes.json:14)): Writes clean, efficient, modular code with HuggingFace ML patterns
 
 **Quality & Security:**
-- 🧪 **Tester (TDD - Risk-Driven)**: Writes tests targeting predicted failure points
-- 🪲 **Debugger (Root Cause Focused)**: Troubleshoots with deep understanding of code context
-- 🛡️ **Security Reviewer (Proactive & Informed)**: Audits against researched threats
-- 🔍 **Code Reviewer (Predictive & Constructive)**: Predicts issues missed by authors
+- 🧪 **Tester (TDD)** ([`tdd`](custom_modes.json:28)): Implements Test-Driven Development with Puppeteer browser testing
+- 🪲 **Debugger** ([`debug`](custom_modes.json:42)): Troubleshoots runtime bugs and integration failures
+- 🛡️ **Security Reviewer** ([`security-review`](custom_modes.json:56)): Performs static/dynamic audits with HuggingFace code analysis
 
 **Specialized Functions:**
-- 📚 **Documentation Writer (Clarity Focused)**: Creates clear guides with awareness of user pain points
-- 🔗 **System Integrator (Validated)**: Merges components with research-backed compatibility checks
-- 🧹 **Optimizer (Evidence-Based)**: Refactors based on evidence and research
-- 📈 **Deployment Monitor (Informed)**: Observes with knowledge of expected behaviors
-- 🚀 **DevOps (Predictive & Secure)**: Deploys with research-backed security measures
-
-**Infrastructure & Management:**
-- 🔄 **Git Manager (Strategic)**: Manages repositories with research-informed strategies
-- 🏢 **Repository Administrator (Best Practices)**: Configures based on researched best practices
-- 📝 **Issue Manager (Risk-Aware)**: Tracks progress with emphasis on risk identification
-- 🚀 **CI/CD Pipeline Engineer (Secure & Resilient)**: Builds pipelines informed by security research
+- 📚 **Documentation Writer** ([`docs-writer`](custom_modes.json:67)): Creates concise, clear Markdown documentation
+- 🔗 **System Integrator** ([`integration`](custom_modes.json:84)): Merges outputs into working, tested, production-ready systems
+- 🧹 **Optimizer** ([`refinement-optimization-mode`](custom_modes.json:112)): Refactors and improves system performance
+- 📈 **Deployment Monitor** ([`post-deployment-monitoring-mode`](custom_modes.json:98)): Observes post-launch performance and logs
+- 🚀 **DevOps** ([`devops`](custom_modes.json:136)): Handles deployment, automation, and infrastructure operations
 
 **Advanced Functions:**
-- 🧰 **DevX (Evidence-Based)**: Enhances developer experience based on research
-- 🔐 **IAM Specialist (Threat-Aware)**: Manages identity with awareness of security threats
-- 🧮 **Data Engineer (Scalable & Resilient)**: Designs data systems with scaling research
-- 🚦 **API Designer (Evolution-Oriented)**: Creates interfaces with future-proof design
-- 📘 **SPARC Tutorial (Predictive Workflow)**: Guides users through the predictive methodology
-- ❓ **Ask (Predictive Task Formulation)**: Guides users to formulate predictive tasks using SPARC methodology
+- ♾️ **MCP Integration** ([`mcp`](custom_modes.json:181)): Manages external service connections through MCP interfaces with mem0 memory operations
+- 🔐 **Supabase Admin** ([`supabase-admin`](custom_modes.json:158)): Specializes in Supabase database, authentication, and storage management
+- 📘 **SPARC Tutorial** ([`tutorial`](custom_modes.json:148)): Provides SPARC onboarding and education assistance
+- ❓ **Ask** ([`ask`](custom_modes.json:127)): Guides task formulation and delegation to correct SPARC modes
 
 ## 🔮 Key Principles (Symbolic Notation)
 
@@ -130,18 +120,59 @@ This framework uses a token-efficient symbolic notation to encode best practices
 
 ## 🔧 Setup & Usage
 
-1. Copy the `custom_modes.json` file to your Roo Code settings
-2. Reference the `symbolic_coding_principles.txt` in your custom instructions
-3. Start using the enhanced, predictive modes in your workflow
+1. Copy the [`custom_modes.json`](custom_modes.json:1) file to your Roo Code settings
+2. Reference the [`symbolic_coding_principles.txt`](symbolic_coding_principles.txt:1) in your custom instructions
+3. Start using the specialized modes in your workflow
 
-## 🔄 Benefits of Research-First Development
+### Key Integration Features
 
-1. **Error Reduction**: Catch issues before they become bugs
-2. **Maintainable Code**: Design with foresight for better architecture
-3. **Efficient Iteration**: Avoid rework by addressing problems early
-4. **Knowledge Transfer**: Self-documenting code with justification comments
-5. **Developer Growth**: Continuous learning through research phase
+**HuggingFace AI/ML Integration:**
+- [`architect`](custom_modes.json:3), [`code`](custom_modes.json:14), [`tdd`](custom_modes.json:28), [`security-review`](custom_modes.json:56), [`spec-pseudocode`](custom_modes.json:170) modes include HuggingFace model integration patterns
+- Model discovery, dataset integration, and performance benchmarking capabilities
+- Secure AI/ML pipeline implementation with proper error handling
+
+**MCP Server Integrations:**
+- [`mcp`](custom_modes.json:181) mode with mem0 memory operations for persistent learning
+- [`deep-research`](custom_modes.json:202) mode with Perplexity AI and context7 integration
+- [`tdd`](custom_modes.json:28) mode with Puppeteer browser testing capabilities
+- [`supabase-admin`](custom_modes.json:158) mode with comprehensive Supabase management
+
+**Memory-Enhanced Workflows:**
+- Cross-session context maintenance with mem0 integration
+- Persistent learning from successful/failed patterns
+- Intelligent recommendations based on historical data
+
+## 🔄 Benefits of Specialized Mode System
+
+1. **AI/ML Integration**: Built-in HuggingFace patterns for model discovery, dataset integration, and performance benchmarking
+2. **Memory-Enhanced Workflows**: Persistent learning across sessions with mem0 integration for continuous improvement
+3. **Comprehensive Testing**: TDD with Puppeteer browser testing and targeted security analysis
+4. **External Service Integration**: MCP server connections for Perplexity AI research, Supabase management, and context7 enhancement
+5. **Modular Architecture**: Each mode enforces 500-line file limits and secure configuration practices
+6. **Orchestrated Workflows**: SPARC methodology with intelligent task delegation and cross-mode coordination
+
+## 📋 Available Modes Quick Reference
+
+| Mode | Slug | Primary Function |
+|------|------|------------------|
+| ⚡️ SPARC Orchestrator | [`sparc`](custom_modes.json:193) | Complex workflow orchestration with memory |
+| 🔍 Deep Research | [`deep-research`](custom_modes.json:202) | Perplexity AI + context7 research |
+| 📋 Specification Writer | [`spec-pseudocode`](custom_modes.json:170) | Requirements to pseudocode with TDD |
+| 🏗️ Architect | [`architect`](custom_modes.json:3) | System design with HuggingFace patterns |
+| 🧠 Auto-Coder | [`code`](custom_modes.json:14) | Clean code with ML integration |
+| 🧪 Tester (TDD) | [`tdd`](custom_modes.json:28) | Test-driven development + Puppeteer |
+| 🪲 Debugger | [`debug`](custom_modes.json:42) | Runtime troubleshooting |
+| 🛡️ Security Reviewer | [`security-review`](custom_modes.json:56) | Security audits with AI code analysis |
+| 📚 Documentation Writer | [`docs-writer`](custom_modes.json:67) | Markdown documentation |
+| 🔗 System Integrator | [`integration`](custom_modes.json:84) | Component integration |
+| 🧹 Optimizer | [`refinement-optimization-mode`](custom_modes.json:112) | Performance optimization |
+| 📈 Deployment Monitor | [`post-deployment-monitoring-mode`](custom_modes.json:98) | Post-launch monitoring |
+| 🚀 DevOps | [`devops`](custom_modes.json:136) | Infrastructure & deployment |
+| ♾️ MCP Integration | [`mcp`](custom_modes.json:181) | External service connections |
+| 🔐 Supabase Admin | [`supabase-admin`](custom_modes.json:158) | Database & auth management |
+| 📘 SPARC Tutorial | [`tutorial`](custom_modes.json:148) | Framework education |
+| ❓ Ask | [`ask`](custom_modes.json:127) | Task formulation guidance |
 
 ---
 
-*This framework builds on the work of Reuven Cohen and ChrisRoyse, enhancing it with custom specialized modes and adapting it to a 500-line modularity standard. The predictive, research-first approach creates more robust, maintainable, and secure software.*
+*This framework builds on the work of Reuven Cohen, enhancing it with custom specialized modes and adapting it to a 500-line modularity standard. The predictive, research-first approach creates more robust, maintainable, and secure software.*
