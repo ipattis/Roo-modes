@@ -142,4 +142,53 @@ graph TD
    - Were any new risks introduced?
    - Is there evidence/validation of risk mitigation?
 
+## Available Modes Reference
+
+The following modes are available in the updated [`custom_modes.json`](custom_modes.json:1) configuration:
+
+### Core Orchestration
+- `sparc` - ⚡️ SPARC Orchestrator 
+- `ask` - ❓ Ask 
+
+### Research & Analysis  
+- `research-specialist` - 🔍 Research Specialist 
+- `researcher` - 🔍 Researcher (gpt-4o-preview)
+
+### Design & Architecture
+- `spec-pseudocode` - 📋 Specification Writer 
+- `architect` - 🏗️ Architect 
+### Development & Implementation
+- `code` - 🧠 Auto-Coder 
+- `tdd` - 🧪 Tester (TDD)
+
+### Quality & Security
+- `debug` - 🪲 Debugger (Root Cause Focused)
+- `security-review` - 🛡️ Security Reviewer 
+- `code-reviewer` - 🔍 Code Reviewer 
+
+### Documentation & Integration
+- `docs-writer` - 📚 Documentation Writer 
+- `integration` - 🔗 System Integrator 
+
+### Infrastructure & DevOps
+- `devops` - 🚀 DevOps 
+- `ci-cd-pipeline` - 🚀 CI/CD Pipeline Engineer 
+
+### Repository Management
+- `git-manager` - 🔄 Git Manager 
+- `repo-admin` - 🏢 Repository Administrator 
+- `issue-tracker` - 📝 Issue Manager
+
+### Monitoring & Optimization
+- `post-deployment-monitoring-mode` - 📈 Deployment Monitor 
+- `refinement-optimization-mode` - 🧹 Optimizer 
+
+### Specialized Functions
+- `devx` - 🧰 DevX 
+- `iam-specialist` - 🔐 IAM Specialist 
+- `data-engineer` - 🧮 Data Engineer 
+- `api-designer` - 🚦 API Designer 
+- `tutorial` - 📘 SPARC Tutorial 
+
+For detailed information about each mode, see [`modes-reference.md`](modes-reference.md:1).
 By following this guide, you'll maximize the effectiveness of the predictive modes and truly implement research-first development.

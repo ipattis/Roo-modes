@@ -57,6 +57,7 @@ A comprehensive team of AI agents covering the entire development lifecycle:
 - 🧮 **Data Engineer (Scalable & Resilient)**: Designs data systems with scaling research
 - 🚦 **API Designer (Evolution-Oriented)**: Creates interfaces with future-proof design
 - 📘 **SPARC Tutorial (Predictive Workflow)**: Guides users through the predictive methodology
+- ❓ **Ask (Predictive Task Formulation)**: Guides users to formulate predictive tasks using SPARC methodology
 
 ## 🔮 Key Principles (Symbolic Notation)
 
